@@ -3,7 +3,9 @@
 
   background-color: var(--main);
 
-  position: relative;
+  position: fixed;
+
+  z-index: 20;
 }
 
 .header-container {
