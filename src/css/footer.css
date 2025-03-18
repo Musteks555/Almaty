@@ -87,9 +87,13 @@
 .footer-nav-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
 
   gap: 16px;
+}
+
+.footer-nav-item {
+  width: calc((100% - 16px) / 2);
 }
 
 .footer-nav-item-link {
