@@ -1,61 +1,388 @@
 <header class="header">
-  <div class="container">
-    <div class="header-container">
-      <a href="../index.html" class="header-logo">
-        <img
-          src="/public/logo.svg"
-          alt="logo"
-          class="header-logo-icon"
-          width="28"
-          height="28"
-        />
+    <div class="container">
+        <div class="header-container">
+            <a href="../index.html" class="header-logo">
+                <img src="/public/logo.svg" alt="logo" class="header-logo-icon" width="28" height="28" />
 
-        <span>Almaty trans</span>
-      </a>
+                <span>Almaty trans</span>
+            </a>
 
-      <div class="header-btn-container">
-        <button type="button" class="header-btn">Заказать</button>
+            <div class="header-btn-container">
+                <div class="header-btn-phone-container">
+                    <a href="tel:+77757444499" target="_blank" class="header-btn-phone-link header-btn-phone-phone">
+                        <img src="/public/phone.svg" alt="phone" class="header-btn-phone-link-icon" />
+                    </a>
 
-        <button type="button" class="header-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=77757444499"
+                        target="_blank"
+                        class="header-btn-phone-link header-btn-phone-link-whatsapp"
+                        rel="noopener noreferrer"
+                    >
+                        <img src="/public/whatsapp-big.svg" alt="whatsapp" class="header-btn-phone-link-icon" />
+                    </a>
+                </div>
+
+                <button type="button" class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div class="header-menu">
-    <nav class="header-menu-container">
-      <ul class="header-menu-nav-list">
-        <li class="header-menu-nav-item">
-          <a
-            href="https://almatytrans.kz/transportnaja-kompanija.html"
-            class="header-menu-nav-link"
-            >О компании</a
-          >
-        </li>
+    <div class="header-menu">
+        <nav class="header-menu-container">
+            <div class="container">
+                <ul class="header-menu-nav-list">
+                    <li class="header-menu-nav-item">
+                        <a href="https://almatytrans.kz/transportnaja-kompanija.html" class="header-menu-nav-link">О компании</a>
+                    </li>
 
-        <li class="header-menu-nav-item">
-          <a href="./index.html#park" class="header-menu-nav-link"
-            >Наш автопарк</a
-          >
-        </li>
+                    <li class="header-menu-nav-item">
+                        <a href="https://almatytrans.kz/ceni.html" class="header-menu-nav-link">Тарифы</a>
+                    </li>
 
-        <li class="header-menu-nav-item">
-          <a href="./index.html#services" class="header-menu-nav-link"
-            >Все услуги</a
-          >
-        </li>
+                    <li class="header-menu-nav-item">
+                        <div class="header-menu-nav-item-header">
+                            <p class="header-menu-nav-link">Наш автопарк</p>
 
-        <li class="header-menu-nav-item">
-          <a
-            href="https://almatytrans.kz/ceni.html"
-            class="header-menu-nav-link"
-            >Тарифы</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </div>
+                            <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                        </div>
+
+                        <ul class="header-menu-nav-item-list is-none">
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Весь Автопарк</a>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Газель</a>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Бортовой грузовик</a>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Среднетонажные грузовики</a>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Эвакуаторы</a>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Манипуляторы</a>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <a href="" class="header-menu-nav-item-list-item-link">Шаланды</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="header-menu-nav-item">
+                        <div class="header-menu-nav-item-header">
+                            <p class="header-menu-nav-link">Все услуги</p>
+
+                            <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                        </div>
+
+                        <ul class="header-menu-nav-item-list is-none">
+                            <li class="header-menu-nav-item-list-item">
+                                <div class="header-menu-nav-item-header">
+                                    <p class="header-menu-nav-link">Услуги Вывоза мусора</p>
+
+                                    <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                                </div>
+
+                                <ul class="header-menu-nav-item-list is-none">
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз строительного мусора </a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Срочный вывоз мусора</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоза мусора с грузчиками</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз мусора после ремонт</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз мусора из паркинга</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз мусора Газелью</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз технического мусора</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз мусора в мешках</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Уборка и вывоз мусора</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз промышленных отходов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Вывоз негабаритного мусора</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Грузчики для вывоза мусора</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <div class="header-menu-nav-item-header">
+                                    <p class="header-menu-nav-link">Услуги перевозки Грузов</p>
+
+                                    <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                                </div>
+
+                                <ul class="header-menu-nav-item-list is-none">
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка грузов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка мебели</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка стройматериалов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка животных</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка негабаритных грузов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка аквариумов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка архивов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка оборудования</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка дивана</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка пианино</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка малогабаритных грузов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка сборных</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка бытовой техники</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка длинномерных грузов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка станков</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка металлопроката</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка кирпича</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозка на газели</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Международные грузоперевозки</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link"
+                                            >Междугородние грузоперевозки по Казахстану</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <div class="header-menu-nav-item-header">
+                                    <p class="header-menu-nav-link">Услуги Переезда</p>
+
+                                    <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                                </div>
+
+                                <ul class="header-menu-nav-item-list is-none">
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд по Алматы </a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Квартирный переезд</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Офисный переезд</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Дачный переезд</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд под ключ</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Междугородий переезд</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Домашний переезд</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд Банка</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд кафе и ресторана</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд магазина</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд склада</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезд котеджа</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Загородный Переезд</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Переезды по области</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Аренда Газели</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Срочный переезд</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <div class="header-menu-nav-item-header">
+                                    <p class="header-menu-nav-link">Услуги Доставки</p>
+
+                                    <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                                </div>
+
+                                <ul class="header-menu-nav-item-list is-none">
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Доставка по Алматы</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Экспресс доставка по Алматы</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Доставка из магазинов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link"
+                                            >Доставка грузов на логистические терминалы</a
+                                        >
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Доставка грузов в несколько адресов</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Доставка продукции в торговые сети</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="header-menu-nav-item-list-item">
+                                <div class="header-menu-nav-item-header">
+                                    <p class="header-menu-nav-link">Прочие Услуги</p>
+
+                                    <img src="/public/plus.svg" alt="plus" class="header-menu-nav-item-icon" />
+                                </div>
+
+                                <ul class="header-menu-nav-item-list is-none">
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Прочие услуги</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Заезд в паркинг</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Грузчики</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Мебельщики</a>
+                                    </li>
+
+                                    <li class="header-menu-nav-item-list-item">
+                                        <a href="" class="header-menu-nav-item-list-item-link">Перевозки по Области</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </header>
